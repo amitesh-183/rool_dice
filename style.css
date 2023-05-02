@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  height: 100vh;
+}
+.container {
+  background-color: rgba(100, 100, 100, 0.275);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.519);
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem 16rem;
+  padding: 60px 0px;
+  border-radius: 6px;
+}
+.new {
+  padding: 2rem 0 0 0;
+  text-align: center;
+}
+.active {
+  background-color: rgba(244, 244, 244, 0.325);
+  transition: 0.8s linear;
+}
+.player1,
+.player2 {
+  text-align: center;
+  padding: 120px 175px;
+  z-index: 1;
+}
+h2 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 60px;
+  padding-bottom: 60px;
+}
+.player1 {
+  position: absolute;
+  left: 16rem;
+  top: 8.4rem;
+}
+.player2 {
+  position: absolute;
+  top: 8.4rem;
+  right: 16rem;
+  z-index: 10;
+}
+.game-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  z-index: 100;
+}
+.btn-controls {
+  background: rgba(171, 171, 171, 0.59);
+  border: none;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+.hidden {
+  opacity: 0;
+}
+.dice > img {
+  height: 120px;
+  margin: 0 auto;
+  width: 120px;
+}
+.current {
+  background: #2647769a;
+  padding: 16px 50px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+button {
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 18px;
+}
+button:active {
+  box-shadow: 1px 1px 10px black;
+}
+h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.current-score {
+  font-size: 30px;
+}
+footer {
+  text-align: center;
+}
