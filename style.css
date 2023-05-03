@@ -70,6 +70,7 @@ h3 {
   height: 120px;
   margin: 0 auto;
   width: 120px;
+  transition: 0.5s ease-in-out;
 }
 .current {
   background: #2647769a;
@@ -81,6 +82,10 @@ button {
   cursor: pointer;
   transition: 0.2s;
   font-size: 18px;
+  font-weight: 600;
+}
+button:hover {
+  background: #a11dff9c;
 }
 button:active {
   box-shadow: 1px 1px 10px black;
